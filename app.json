@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/list/list",
+    "pages/playsong/playsong",
+    "pages/toplist/toplist",
+
+    "pages/components/cblistheader/cblistheader"
+  ],
+  "window":{
+    "enablePullDownRefresh":false,
+
+    "navigationBarBackgroundColor" : "#32C27C",
+    "navigationBarTitleText": "音乐相伴",
+    "navigationBarTextStyle":"#fff",
+
+    "backgroundColor":"#fff",
+
+    "backgroundTextStyle": "light"
+  },
+
+
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 9000,
+    "uploadFile":8000,
+    "connectSocket":7000
+  },
+
+
+  "debug": true
+}
